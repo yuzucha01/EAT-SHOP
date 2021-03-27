@@ -1,0 +1,247 @@
+/* header */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ,
+    Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #e6e6e6;
+}
+header {
+  padding: 30px 4% 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid #2a462fb5;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+.content {
+  margin: 0 0 0 auto;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+li {
+  margin: 0px 60px 0px;
+  font-size: 15px;
+}
+/* main */
+
+.main-top {
+  display: block;
+  margin: 8px;
+  background-color: #dbdbdb;
+}
+#commons {
+  height: 500px;
+  overflow: scroll;
+}
+h2 {
+  font-size: 30px;
+}
+
+/* container */
+.wrapper {
+  display: block;
+  margin: 8px;
+  margin-top: 80px;
+  background-color: #dbdbdb;
+}
+
+.wrapper .container {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 80px 0px;
+}
+
+.shop_contents {
+  width: 350px;
+  height: 400px;
+  display: flex;
+}
+.shops {
+  height: 400px;
+  width: 300px;
+  margin: 30px;
+}
+.shops img {
+  width: 200px;
+}
+/* content */
+@media (min-width: 992px) {
+  .wrapper .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.wrapper .content-item {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .wrapper .content-item {
+    width: 50%;
+  }
+}
+.wrapper .image {
+  display: block;
+  max-width: 100%;
+  margin: 0px auto;
+}
+.wrapper .text {
+  padding: 50px;
+  text-align: center;
+}
+.wrapper .text .heading {
+  margin: 0px 0px 40px 0px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+.text p {
+  font-size: 15px;
+}
+
+/* logout */
+.footer-contents {
+  display: flex;
+  justify-content: center;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 70;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  margin: 30px 40px 0px;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ,
+    Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.logout a.btn-malformation {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: #517959;
+  opacity: 0.7;
+}
+
+.logout a.btn-malformation:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+.form a.btn-malformation {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: #76b182;
+  opacity: 0.7;
+}
+
+.form a.btn-malformation:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+/* footer */
+
+footer {
+  width: 100vw;
+  bottom: 0px;
+}
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count: infinite;
+  fill: #56885eab;
+}
+
+#wave2 {
+  animation-duration: 5s;
+  animation-direction: reverse;
+  opacity: 0.6;
+}
+#wave3 {
+  animation-duration: 7s;
+  opacity: 0.3;
+}
+@keyframes drop {
+  0% {
+    transform: translateY(80%);
+    opacity: 0.6;
+  }
+  80% {
+    transform: translateY(80%);
+    opacity: 0.6;
+  }
+  90% {
+    transform: translateY(10%);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(0%) scale(1.5);
+    stroke-width: 0.2;
+    opacity: 0;
+  }
+}
+@keyframes wave {
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes ball {
+  to {
+    transform: translateY(20%);
+  }
+}

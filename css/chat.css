@@ -1,0 +1,175 @@
+body {
+  display: flex;
+  min-height: 100vh;
+}
+/* chat記入 */
+.leftNavigation a {
+  left: 105px;
+  top: 13px;
+}
+
+.name {
+  font-size: 30px;
+  height: 30px;
+  width: 350px;
+}
+.text {
+  height: 150px;
+  font-size: 15px;
+  width: 350px;
+}
+.point {
+  margin: 0px;
+}
+
+.leftNavigation {
+  width: 400px;
+  height: 640px;
+  text-align: center;
+  background-color: #2a462fb5;
+  color: #fff;
+}
+.leftNavigation h1 {
+  margin: 0px 5px;
+}
+
+/* 投稿 */
+.button {
+  display: inline-block;
+  font-size: 13pt;
+  text-align: center;
+  cursor: pointer;
+  padding: 13px 27px;
+  background: #ffffff;
+  color: #000000;
+  line-height: 1em;
+  opacity: 1;
+  transition: 0.3s;
+  box-shadow: 6px 6px #666666;
+  margin-top: 10px;
+}
+.button:hover {
+  box-shadow: none;
+  opacity: 0.8;
+}
+.text {
+  margin: 0px;
+  height: 180px;
+  width: 351px;
+}
+
+/* 送信ボタン */
+
+a.btn-border {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+}
+
+a.btn-border:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 15px;
+  height: 100%;
+
+  content: "";
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
+
+  border-radius: 0 50% 50% 0;
+  background: #000;
+}
+
+a.btn-border:hover:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  line-height: 30px;
+
+  width: 30px;
+  height: 30px;
+
+  content: "\f061";
+  -webkit-transform: translateX(460%) translateY(0.5rem);
+  transform: translateX(460%) translateY(0.5rem);
+
+  color: #fff;
+  border-radius: 50%;
+}
+
+/* search */
+.search_container {
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #999;
+  padding: 3px 10px;
+  border-radius: 20px;
+  height: 2.3em;
+  width: 350px;
+  overflow: hidden;
+}
+.search_container input[type="text"] {
+  border: none;
+  width: 280px;
+  float: left;
+  height: 2em;
+}
+.search_container input[type="text"]:focus {
+  outline: 0;
+}
+.search_container input[type="submit"] {
+  cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 1.3em;
+  border: none;
+  background: none;
+  color: #3879d9;
+  position: absolute;
+  width: 2.5em;
+  height: 2.5em;
+  right: 0;
+  top: -10px;
+  outline: none;
+}
+/* chat-main */
+.content {
+  overflow: scroll;
+}
+.content-main {
+  flex: 1;
+  background-color: #eee;
+  text-align: center;
+  margin-left: 10px;
+  overflow: scroll;
+  height: 640px;
+}
+.chat-contents {
+  background-color: #86aa8c82;
+  border: 2px solid #56885eab;
+  height: 300px;
+  width: 250px;
+  float: left;
+  overflow: scroll;
+  margin: 5px;
+  font-family: monospace;
+}
+.chat-contents img {
+  width: 300px;
+}
+.chat-contents h1 {
+  font-size: 20px;
+}
+p {
+  overflow: scroll;
+}
+.edit {
+  display: flex;
+  justify-content: center;
+}
