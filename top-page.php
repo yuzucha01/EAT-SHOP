@@ -28,16 +28,26 @@ $shops = getAllShop();
     </header>
     <section class="wrapper">
       <div class="container">
+
         <div class="content">
+
           <div class="content-item">
             <img src="img/料理top.png" class="image" />
+            <img src="img/風景.webp" class="image" />
+            <img src="img/料理top.png" class="image" />
+            <img src="img/eating-korean-bibimbap-and-kimchi.webp" class="image" />
+            <img src="img/girl-treating-herself-with-flatwhite-coffee-and-cake.webp" class="image" />
+            <img src="img/sweet-vanilla-pastry-with-raspberries-on-top.webp" class="image" />
+            <img src="img/traditional-korean-food-in-a-restaurant.webp" class="image" />
           </div>
+
           <div class="content-item">
             <div class="text">
               <h2 class="heading">What do you eat today?</h2>
               <p>毎日の食事が楽しみになるサイトです</p>
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -103,5 +113,7 @@ $shops = getAllShop();
     <?php
     $_SESSION["chk_ssid"] = session_id()
     ?>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="common.js"></script>
   </body>
 </html>
