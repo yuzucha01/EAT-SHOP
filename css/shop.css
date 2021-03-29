@@ -1,4 +1,22 @@
-#top {
-  display: flex;
-  justify-content: flex-start;
+body {
+  background-color: #e6e6e6;
+}
+.home {
+  text-align: center;
+}
+.home p {
+  margin: 0px 0px 40px 0px;
+  font-size: 20px;
+}
+.main {
+  position: relative;
+  background-color: #dbdbdb;
+  height: 580px;
+  padding: 30px;
+}
+.commons {
+  text-align: center;
+}
+#common {
+  padding-top: 30px;
 }
