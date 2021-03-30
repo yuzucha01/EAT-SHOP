@@ -33,12 +33,7 @@ $shops = getAllShop();
 
           <div class="content-item">
             <img src="img/料理top.png" class="image" />
-            <img src="img/風景.webp" class="image" />
-            <img src="img/料理top.png" class="image" />
-            <img src="img/eating-korean-bibimbap-and-kimchi.webp" class="image" />
-            <img src="img/girl-treating-herself-with-flatwhite-coffee-and-cake.webp" class="image" />
-            <img src="img/sweet-vanilla-pastry-with-raspberries-on-top.webp" class="image" />
-            <img src="img/traditional-korean-food-in-a-restaurant.webp" class="image" />
+
           </div>
 
           <div class="content-item">
@@ -56,7 +51,7 @@ $shops = getAllShop();
       <div class="main-top">
 
         <div id="commons">
-          <h2 class="meat">shop</h2>
+          <h2 class="shop">/　　SHOP　　/</h2>
           <div class="shop_contents">
             <?php foreach($shops as $shop):?>
                 <div class="shops">
