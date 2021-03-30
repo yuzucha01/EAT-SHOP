@@ -244,3 +244,9 @@ footer {
     transform: translateY(20%);
   }
 }
+/* ----------------shop------------------------------ */
+.shop {
+  padding-left: 30px;
+  font-size: 25px;
+  color: #4b4b4b;
+}
