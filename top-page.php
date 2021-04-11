@@ -23,6 +23,7 @@ $shops = getAllShop();
         <ul>
           <li><a href="chat.php">/　　RECIPE Chat　　/</a></li>
           <li><a href="shop.php">　　　/　　SHOP Plus　　/　　　</a></li>
+          <li><a href="order.php">　　　/　　order　　/　　　</a></li>
         </ul>
       </div>
     </header>
